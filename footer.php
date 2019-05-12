@@ -1,8 +1,15 @@
 <div class="container">
     <div class="other d-flex mt-5">
+
+        <?php
+        if(!isset($_SESSION['userName'])) {
+            echo '
         <div class="mr-3">
             <a class="btn btn-warning" href="signup.php">Sign up!</a>
         </div>
+        ';
+        }
+        ?>
 
         <?php
         if(isset($_SESSION['userName'])){

@@ -17,9 +17,6 @@ session_start();
 
     <div class="header">
         <div class="container">
-<!--            <a href="#">-->
-<!--                <img src="#" alt="#">-->
-<!--            </a>-->
 
            <div class="navbar d-flex align-items-center justify-content-between">
                <div class="nav">
